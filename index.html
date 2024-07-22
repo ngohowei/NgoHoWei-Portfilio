@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>NgoHoWei Portfolios</title>
+	<title>Portfolios</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -46,7 +46,6 @@
 
 		<!-- Main -->
 		<div id="main">
-
 			<!-- Intro -->
 			<article id="intro">
 				<h2 class="major">Intro</h2>
@@ -58,8 +57,8 @@
 					mainting the technoloogy needed to power the frontend.<br>- Ensure that everything the frontend
 					developer builds is fully functional.<br>- Create and manage the database</p>
 				<p><span style="font-size: 2em;">Full Stack Developers</span><br>- Expert in both backend and frontend
-					development.<br>- Guide on strategy and best practices.<br>- Well-versed in both business logic
-						and user experience.</br>
+					development.<bbr>- Guide on strategy and beest practices.<br>- Well-versed in both business logic
+						and user experience.</bbr>
 				</p>
 				<p>check out my <a href="#project">project</a>
 			</article>
@@ -67,16 +66,25 @@
 			<!-- Project -->
 			<article id="project">
 				<h2 class="major">Project</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-				<p></p>
-				<p>See you later.</p>
-				<p></p>
+				<span class="image main"><img src="images/pic02.jpg" alt="" style="height:200px" /></span>
+				<button onclick="toggleProject('project1')" style="display: block;margin:5px 0 5px 0;">Furniture
+					Shop</button>
+				<div class="project" id="project1">This project is our use HTML, CSS and some JavaScript to create an
+					Furniture Shop Website.<br><a href="#FurnitureShopDetails" class="details-btn">Details</a></br>
+				</div>
+				<button onclick="toggleProject('project2')" style="display: block;margin:15px 0 5px 0;">Toggle Project
+					2</button>
+				<div class="project" id="project2">Content for Project 2</div>
+				<div class="project3"></div>
+				<div class="project4"></div>
+				<div class="project5"></div>
 			</article>
 
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
-				<span class="image"><img src="images/pic03.jpg" alt="" style="width: 300px; height: 350px;position:none;"/></span>
+				<span class="image"><img src="images/pic03.jpg" alt=""
+						style="width: 300px; height: 350px;position:none;" /></span>
 				<p>My name is Ngo Ho Wei. I recently completed my diploma in Information Technology at Tunku Abdul
 					Rahman University of Management and Technology. I am passionate about technology and have decided to
 					continue my education by pursuing a degree in Cyber Security.</p>
@@ -125,263 +133,85 @@
 				</form>
 				<ul class="icons">
 					<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-					<li><a href="https://www.facebook.com/howei.ngo/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/hw_ooei/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.facebook.com/howei.ngo/" class="icon brands fa-facebook-f"><span
+								class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/hw_ooei/?hl=en" class="icon brands fa-instagram"><span
+								class="label">Instagram</span></a></li>
 					<!--<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
-					<li><a href="https://www.douyin.com/user/MS4wLjABAAAAZh7MPH_B4klfdcfL5bV5W6Oh_cLIiuJT2A1WuPCeBYg" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
+					<li><a href="https://www.douyin.com/user/MS4wLjABAAAAZh7MPH_B4klfdcfL5bV5W6Oh_cLIiuJT2A1WuPCeBYg"
+							class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
 				</ul>
 			</article>
 
-			<!-- Elements -->
-			<article id="elements">
-				<h2 class="major">Elements</h2>
-
-				<section>
-					<h3 class="major">Text</h3>
-					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
-						<em>emphasized</em>.
-						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a
-							href="#">this is a link</a>.</p>
-					<hr />
-					<h2>Heading Level 2</h2>
-					<h3>Heading Level 3</h3>
-					<h4>Heading Level 4</h4>
-					<h5>Heading Level 5</h5>
-					<h6>Heading Level 6</h6>
-					<hr />
-					<h4>Blockquote</h4>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus
-						euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
-						iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
-						ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-					<h4>Preformatted</h4>
-					<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-				</section>
-
-				<section>
-					<h3 class="major">Lists</h3>
-
-					<h4>Unordered</h4>
-					<ul>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
-					</ul>
-
-					<h4>Alternate</h4>
-					<ul class="alt">
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
-					</ul>
-
-					<h4>Ordered</h4>
-					<ol>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis viverra.</li>
-						<li>Felis enim feugiat.</li>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis lorem.</li>
-						<li>Felis enim et feugiat.</li>
-					</ol>
-					<h4>Icons</h4>
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					</ul>
-
-					<h4>Actions</h4>
-					<ul class="actions">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-					<ul class="actions stacked">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h3 class="major">Table</h3>
-					<h4>Default</h4>
-					<div class="table-wrapper">
-						<table>
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-
-					<h4>Alternate</h4>
-					<div class="table-wrapper">
-						<table class="alt">
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</section>
-
-				<section>
-					<h3 class="major">Buttons</h3>
-					<ul class="actions">
-						<li><a href="#" class="button primary">Primary</a></li>
-						<li><a href="#" class="button">Default</a></li>
-					</ul>
-					<ul class="actions">
-						<li><a href="#" class="button">Default</a></li>
-						<li><a href="#" class="button small">Small</a></li>
-					</ul>
-					<ul class="actions">
-						<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-					</ul>
-					<ul class="actions">
-						<li><span class="button primary disabled">Disabled</span></li>
-						<li><span class="button disabled">Disabled</span></li>
-					</ul>
-				</section>
-
-				<section>
-					<h3 class="major">Form</h3>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field half">
-								<label for="demo-name">Name</label>
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-							</div>
-							<div class="field half">
-								<label for="demo-email">Email</label>
-								<input type="email" name="demo-email" id="demo-email" value=""
-									placeholder="jane@untitled.tld" />
-							</div>
-							<div class="field">
-								<label for="demo-category">Category</label>
-								<select name="demo-category" id="demo-category">
-									<option value="">-</option>
-									<option value="1">Manufacturing</option>
-									<option value="1">Shipping</option>
-									<option value="1">Administration</option>
-									<option value="1">Human Resources</option>
-								</select>
-							</div>
-							<div class="field half">
-								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-								<label for="demo-priority-low">Low</label>
-							</div>
-							<div class="field half">
-								<input type="radio" id="demo-priority-high" name="demo-priority">
-								<label for="demo-priority-high">High</label>
-							</div>
-							<div class="field half">
-								<input type="checkbox" id="demo-copy" name="demo-copy">
-								<label for="demo-copy">Email me a copy</label>
-							</div>
-							<div class="field half">
-								<input type="checkbox" id="demo-human" name="demo-human" checked>
-								<label for="demo-human">Not a robot</label>
-							</div>
-							<div class="field">
-								<label for="demo-message">Message</label>
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
-									rows="6"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="primary" /></li>
-							<li><input type="reset" value="Reset" /></li>
+			<article id="FurnitureShopDetails" style="width: 60rem; position: relative;">
+				<button id="prevBtn" class="navBtn"><-</button>
+				<span class="image main" id="image1"><img src="DetailsPhoto/JNJ1.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image2" style="display: none;"><img src="DetailsPhoto/JNJ2.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image3" style="display: none;"><img src="DetailsPhoto/JNJ3.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image4" style="display: none;"><img src="DetailsPhoto/JNJ4.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image5" style="display: none;"><img src="DetailsPhoto/JNJ5.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image6" style="display: none;"><img src="DetailsPhoto/JNJ6.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<span class="image main" id="image7" style="display: none;"><img src="DetailsPhoto/JNJ7.png" alt="" style="width: 100%; height: 500px;" /></span>
+				<button id="nextBtn" class="navBtn">-></button>
+				<h2>Project Overview</h2>
+						<p>This project involves the creation of a dynamic and user-friendly website utilizing HTML,
+							CSS, and JavaScript. The primary goal is to develop an interactive
+							platform that provides a seamless shopping experience for users. The website comprises
+							several key sections, each serving a specific function to enhance user engagement and
+							satisfaction.</p>
+						<h3>Key Features</h3>
+						<ul>
+							<li>
+								<strong>Home Page</strong>: The welcoming page of the website that provides an overview
+								of the brand and highlights featured products, promotions, and important announcements.
+							</li>
+							<li>
+								<strong>Product Catalog</strong>: A comprehensive catalog that displays all available
+								products with relevant details such as images, descriptions, prices, and categories.
+							</li>
+							<li>
+								<strong>Product Detail View</strong>: A dedicated page for each product that includes
+								detailed information, high-quality images, and customer reviews. Users can also select
+								product options such as size and color.
+							</li>
+							<li>
+								<strong>Shopping Cart</strong>: An intuitive cart feature that allows users to add,
+								remove, and modify products they wish to purchase. The cart provides a summary of
+								selected items, total costs, and available discounts.
+							</li>
+							<li>
+								<strong>Order Status Tracking</strong>: A section where customers can view the status of
+								their orders, including processing, shipping, and delivery updates.
+							</li>
+							<li>
+								<strong>Membership</strong>: An area dedicated to customer accounts, where users can
+								sign up, log in, and manage their profile information, including order history and saved
+								preferences.
+							</li>
+							<li>
+								<strong>Customer Reviews</strong>: A platform for customers to leave feedback and
+								reviews on products they have purchased, helping other users make informed decisions.
+							</li>
 						</ul>
-					</form>
-				</section>
+						<h3>Technical Implementation</h3>
+						<p>
+							<strong>HTML and CSS</strong>: Used to structure the content and style the website, ensuring
+							it is visually appealing and responsive across different devices.
+							<br>
+							<strong>JavaScript</strong>: Enhances the website's interactivity, enabling features such as
+							image carousels, dynamic product displays, and real-time updates to the shopping cart and
+							order status.
+						</p>
 
+						<p>This website project aims to provide a rich user experience by combining aesthetic design
+							with functional features, ultimately driving customer satisfaction and loyalty.</p>
+						<p>Back to <a href="#project">project</a></p>
 			</article>
-
 		</div>
+
+		
+
+
 
 		<!-- Footer -->
 		<footer id="footer">
@@ -403,3 +233,123 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 </body>
 
 </html>
+<style>
+	.project {
+		display: none;
+		padding: 20px 20px 20px 5px;
+		border-bottom: solid 0.5px #ffffff;
+	}
+
+	.details-btn {
+		display: inline-block;
+		padding: 5px 10px;
+		margin-top: 10px;
+		color: #ffffff;
+		text-decoration: none;
+		border-radius: 4px;
+		box-shadow: inset 0 0 0 1px #ffffff;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: transparent;
+		text-transform: uppercase;
+	}
+
+	#FurnitureShopDetails {
+    position: relative;
+}
+
+.navBtn {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 10;
+}
+
+#prevBtn {
+	left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.navBtn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+</style>
+<script>
+	function toggleProject(projectId) {
+		const projects = document.querySelectorAll('.project');
+
+		projects.forEach(project => {
+			if (project.id === projectId) {
+				if (project.style.display === "none" || project.style.display === "") {
+					project.style.display = "block";
+				} else {
+					project.style.display = "none";
+				}
+			} else {
+				project.style.display = "none";
+			}
+		});
+	}
+
+<!---->
+
+    // Get all image elements
+    const images = document.querySelectorAll('#FurnitureShopDetails .image.main');
+    let currentIndex = 0;
+    let interval;
+
+    // Function to show the current image and hide the others
+    function showImage(index) {
+        images.forEach((image, i) => {
+            if (i === index) {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+    }
+
+    // Initially show the first image
+    showImage(currentIndex);
+
+    // Function to change the image every 3 seconds
+    function changeImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    // Set the interval to change the image every 3 seconds
+    function startInterval() {
+        interval = setInterval(changeImage, 3000);
+    }
+
+    // Start the interval initially
+    startInterval();
+
+    // Get the buttons
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    // Add event listeners for the buttons
+    prevBtn.addEventListener('click', () => {
+        clearInterval(interval); // Stop automatic changing
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+        startInterval(); // Restart the interval
+    });
+
+    nextBtn.addEventListener('click', () => {
+        clearInterval(interval); // Stop automatic changing
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+        startInterval(); // Restart the interval
+    });
+</script>
